@@ -4,7 +4,6 @@ ARG NATIVE_VERSION=1.1.34-r0
 ENV MAJOR 8
 
 RUN apk update \
-&& apk add --update-cache tomcat-native=${NATIVE_VERSION} --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ \
 && apk add curl
 
 WORKDIR /usr/local 
