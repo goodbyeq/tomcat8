@@ -1,4 +1,4 @@
-FROM 634957622823.dkr.ecr.ap-south-1.amazonaws.com/java8:5
+FROM 634957622823.dkr.ecr.ap-south-1.amazonaws.com/java8:6
 MAINTAINER goodbyeQ
 USER root
 ENV CATALINA_HOME /usr/share/tomcat8
